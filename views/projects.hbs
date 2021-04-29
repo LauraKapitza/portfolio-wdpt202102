@@ -1,0 +1,11 @@
+<h1>Mes projets</h1>
+<ul>
+    {{#each projects}}
+        <li>
+            <p>{{name}}</p>
+            <a href='/projects/{{id}}'>
+                <img src='{{image}}'>
+            </a>
+        </li>
+    {{/each}}
+</ul>
